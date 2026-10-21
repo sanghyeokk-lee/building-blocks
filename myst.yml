@@ -1,0 +1,27 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 5a687b5d-0d39-44e4-a916-8b8854cbec9a
+  title: Building Blocks
+  authors:
+    - name: Sanghyeok Lee
+  numbering:
+    headings: true
+  toc:
+    - file: index.md
+    - title: Probability & Statistics
+      children:
+        - file: probability/random-variable.md
+        - file: probability/probability-distribution.md
+        - file: probability/joint-distribution.md
+        - file: probability/conditional-probability.md
+        - file: probability/parameter.md
+        - file: probability/likelihood.md
+        - file: probability/latent-variable.md
+        - file: probability/markov-property.md
+        - file: probability/marginalization.md
+site:
+  template: book-theme
+  options:
+    folders: true
+    logo_text: Building Blocks
