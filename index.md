@@ -13,3 +13,7 @@ numbering: false
 | Probability & Statistics | 진행 중 |
 | Information Theory | 예정 |
 | Linear Algebra | 예정 |
+| Machine Learning | 예정 |
+| Deep Learning | 예정 |
+| Reinforcement Learning | 예정 |
+| PyTorch | 진행 중 |

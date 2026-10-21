@@ -20,6 +20,13 @@ project:
         - file: probability/latent-variable.md
         - file: probability/markov-property.md
         - file: probability/marginalization.md
+    - title: PyTorch
+      children:
+        - file: pytorch/tensor.ipynb
+        - file: pytorch/autograd.ipynb
+        - file: pytorch/module.ipynb
+        - file: pytorch/data.ipynb
+        - file: pytorch/training-loop.ipynb
 site:
   parts:
     navbar_end: header.md
