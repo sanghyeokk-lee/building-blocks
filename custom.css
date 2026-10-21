@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+/* 상단 바의 문구 */
+.bb-quote-header {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 0.9rem;
+  opacity: 0.75;
+  white-space: nowrap;
+  padding: 0 0.75rem;
+}
+
+/* 모든 페이지 맨 아래의 연락 안내 */
+.bb-footer {
+  text-align: center;
+  font-size: 0.85rem;
+  opacity: 0.75;
+  padding: 2rem 1rem;
+}

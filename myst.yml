@@ -21,7 +21,11 @@ project:
         - file: probability/markov-property.md
         - file: probability/marginalization.md
 site:
+  parts:
+    navbar_end: header.md
+    footer: footer.md
   template: book-theme
   options:
     folders: true
     logo_text: Building Blocks
+    style: custom.css
