@@ -15,11 +15,29 @@ project:
         - file: probability/probability-distribution.md
         - file: probability/joint-distribution.md
         - file: probability/conditional-probability.md
+        - file: probability/product-rule.md
         - file: probability/parameter.md
         - file: probability/likelihood.md
         - file: probability/latent-variable.md
+        - file: probability/prior-posterior.md
+        - file: probability/generative-process.md
         - file: probability/markov-property.md
         - file: probability/marginalization.md
+        - file: probability/intractable.md
+        - file: probability/expectation.md
+    - title: Information Theory
+      children:
+        - file: information-theory/entropy.md
+        - file: information-theory/cross-entropy.md
+        - file: information-theory/kl-divergence.md
+    - title: Machine Learning
+      children:
+        - file: machine-learning/variational-posterior.md
+        - file: machine-learning/elbo.md
+        - file: machine-learning/reparameterization-trick.md
+    - title: Deep Learning
+      children:
+        - file: deep-learning/mlp.md
     - title: PyTorch
       children:
         - file: pytorch/tensor.ipynb
@@ -27,6 +45,10 @@ project:
         - file: pytorch/module.ipynb
         - file: pytorch/data.ipynb
         - file: pytorch/training-loop.ipynb
+    - title: Data Structures & Algorithms
+      children:
+        - file: algorithms/time-complexity.md
+        - file: algorithms/dictionary.md
 site:
   parts:
     navbar_end: header.md
